@@ -36,7 +36,7 @@ lazy val util = (project in file("modules/util"))
   .settings(csrConfigurationSettings())
 
 val x: Seq[Project] = for {
-  i <- 1 to 20
+  i <- 1 to 40
 } yield
   Project(s"x$i", file(s"modules/module$i"))
     .settings(
@@ -68,5 +68,26 @@ lazy val x17 = x(16)
 lazy val x18 = x(17)
 lazy val x19 = x(18)
 lazy val x20 = x(19)
+
+lazy val x21 = x(20)
+lazy val x22 = x(21)
+lazy val x23 = x(22)
+lazy val x24 = x(23)
+lazy val x25 = x(24)
+lazy val x26 = x(25)
+lazy val x27 = x(26)
+lazy val x28 = x(27)
+lazy val x29 = x(28)
+lazy val x30 = x(29)
+lazy val x31 = x(30)
+lazy val x32 = x(31)
+lazy val x33 = x(32)
+lazy val x34 = x(33)
+lazy val x35 = x(34)
+lazy val x36 = x(35)
+lazy val x37 = x(36)
+lazy val x38 = x(37)
+lazy val x39 = x(38)
+lazy val x40 = x(39)
 
 // See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for instructions on how to publish to Sonatype.
